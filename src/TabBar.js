@@ -355,7 +355,7 @@ export default class TabBar<T: *> extends React.Component<Props<T>, State> {
             width: tabWidth,
           })}
         </Animated.View>
-        <View style={styles.scroll}>
+        <View style={[styles.scroll, styles.container]}>
           <Animated.ScrollView
             horizontal
             keyboardShouldPersistTaps="handled"
