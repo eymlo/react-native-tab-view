@@ -516,6 +516,7 @@ const styles = StyleSheet.create({
     flexWrap: 'nowrap',
   },
   tabLabel: {
+    textAlign: 'center',
     backgroundColor: 'transparent',
     color: 'white',
     margin: 8,
